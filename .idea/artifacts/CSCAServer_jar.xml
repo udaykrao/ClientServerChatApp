@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="CSCAServer:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/CSCAServer_jar</output-path>
+    <root id="archive" name="CSCAServer.jar">
+      <element id="module-output" name="CSCAServer" />
+    </root>
+  </artifact>
+</component>

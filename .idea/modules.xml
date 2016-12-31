@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CSCAClient/CSCAClient.iml" filepath="$PROJECT_DIR$/CSCAClient/CSCAClient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CSCAServer/CSCAServer.iml" filepath="$PROJECT_DIR$/CSCAServer/CSCAServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ClientServerChatApp.iml" filepath="$PROJECT_DIR$/ClientServerChatApp.iml" />
+    </modules>
+  </component>
+</project>
