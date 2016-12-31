@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="CSCAClient.jnlp">
+  <information>
+    <title>ClientServerChatApp</title>
+    <vendor>Raosoftware</vendor>
+    <description>CSCAClient</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="CSCAClient.jar" size="6229" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="600" height="400" main-class="com.raosoftware.clientserverchatapp.cscaclient.ChatClient"  name="CSCAClient" />
+  <update check="background"/>
+</jnlp>
