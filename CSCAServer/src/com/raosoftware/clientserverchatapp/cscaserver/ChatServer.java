@@ -83,6 +83,9 @@ public class ChatServer implements Runnable
         {
             player = input.substring(11);
             clients[findClient(ID)].setName(player);
+            int pos = findClient(ID);
+            String ipaddress = clients[findClient(ID)].getIpaddress();
+            System.out.println("Removing client thread " + pos + ": " + player + " (" + ID + " at " + ipaddress + ")");
         }
         else
         {
@@ -95,10 +98,12 @@ public class ChatServer implements Runnable
     synchronized void remove(int ID)
     {
         int pos = findClient(ID);
+        String player = clients[findClient(ID)].getName();
+        String ipaddress = clients[findClient(ID)].getIpaddress();
         if (pos >= 0)
         {
             ClientServerThread toTerminate = clients[pos];
-            System.out.println("Removing client thread " + ID + " at " + pos);
+            System.out.println("Removing client thread " + pos + ": " + player + " (" + ID + " at " + ipaddress + ")");
             if (pos < clientCount-1)
                 for (int i = pos+1; i < clientCount; i++)
                     clients[i-1] = clients[i];

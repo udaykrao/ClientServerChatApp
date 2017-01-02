@@ -1,0 +1,4 @@
+Use the following to connect to server:
+    Your Name = any handle you want to use
+    Server Host = raomsdnazwin.eastus.cloudapp.azure.com
+    Server Port = 59000

@@ -14,6 +14,7 @@ public class ClientServerThread extends Thread
     private int              ID        = -1;
     private DataInputStream streamIn  =  null;
     private DataOutputStream streamOut = null;
+    private String      ipaddress = "";
 
     ClientServerThread(ChatServer _server, Socket _socket)
     {
@@ -21,6 +22,7 @@ public class ClientServerThread extends Thread
         server = _server;
         socket = _socket;
         ID     = socket.getPort();
+        ipaddress = socket.getInetAddress().getHostAddress();
     }
 
     void send(String msg)
@@ -40,6 +42,11 @@ public class ClientServerThread extends Thread
     int getID()
     {
         return ID;
+    }
+
+    String getIpaddress()
+    {
+        return ipaddress;
     }
 
     public void run()
