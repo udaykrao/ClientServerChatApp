@@ -28,8 +28,8 @@ public class ChatClient extends Application
 {
 
     private TextField chatter = new TextField();
-    private TextField serverhost = new TextField();
-    private TextField serverport = new TextField();
+    private TextField serverhost = new TextField("raomsdnazwin.eastus.cloudapp.azure.com");
+    private TextField serverport = new TextField("59000");
     private TextField message = new TextField();
     private TextArea display = new TextArea();
     private Button bye = new Button("Bye");

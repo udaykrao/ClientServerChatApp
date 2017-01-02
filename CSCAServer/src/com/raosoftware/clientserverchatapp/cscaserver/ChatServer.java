@@ -141,7 +141,7 @@ public class ChatServer implements Runnable
         if (args.length != 1)
         {
             System.out.println("Usage: java ChatServer port");
-            server = new ChatServer(60000);
+            server = new ChatServer(59000);
         }
         else
             server = new ChatServer(Integer.parseInt(args[0]));
