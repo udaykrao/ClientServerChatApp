@@ -98,10 +98,10 @@ public class ChatServer implements Runnable
     synchronized void remove(int ID)
     {
         int pos = findClient(ID);
-        String player = clients[findClient(ID)].getName();
-        String ipaddress = clients[findClient(ID)].getIpaddress();
         if (pos >= 0)
         {
+            String player = clients[findClient(ID)].getName();
+            String ipaddress = clients[findClient(ID)].getIpaddress();
             ClientServerThread toTerminate = clients[pos];
             System.out.println("Removing client thread " + pos + ": " + player + " (" + ID + " at " + ipaddress + ")");
             if (pos < clientCount-1)

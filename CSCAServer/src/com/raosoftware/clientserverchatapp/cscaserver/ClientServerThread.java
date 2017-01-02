@@ -61,7 +61,7 @@ public class ClientServerThread extends Thread
             }
             catch(IOException ioe)
             {
-                System.out.println(ID + " ERROR reading: " + ioe.getMessage());
+                System.out.println(ID + " Testing Close: " + ioe.getMessage());
                 server.remove(ID);
                 bool = false;
             }
