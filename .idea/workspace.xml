@@ -7,21 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c797fc8-18a2-4e9a-83a1-ceb2399242be" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/ChatClientConnectVariables.txt" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/macosx/bundles/CSCAClient-1.0.dmg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/CSCAClient/CSCAClient.jar" afterPath="$PROJECT_DIR$/out/artifacts/CSCAClient/CSCAClient.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/CSCAClient/bundles/CSCAClient.app/Contents/Java/CSCAClient.jar" afterPath="$PROJECT_DIR$/out/artifacts/CSCAClient/bundles/CSCAClient.app/Contents/Java/CSCAClient.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/CSCAServer_jar/CSCAServer.jar" afterPath="$PROJECT_DIR$/out/artifacts/CSCAServer_jar/CSCAServer.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CSCAClient/com/raosoftware/clientserverchatapp/cscaclient/ChatClient.class" afterPath="$PROJECT_DIR$/out/production/CSCAClient/com/raosoftware/clientserverchatapp/cscaclient/ChatClient.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CSCAServer/com/raosoftware/clientserverchatapp/cscaserver/ChatServer.class" afterPath="$PROJECT_DIR$/out/production/CSCAServer/com/raosoftware/clientserverchatapp/cscaserver/ChatServer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CSCAServer/com/raosoftware/clientserverchatapp/cscaserver/ClientServerThread.class" afterPath="$PROJECT_DIR$/out/production/CSCAServer/com/raosoftware/clientserverchatapp/cscaserver/ClientServerThread.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package/macosx/CSCAClient.jar" afterPath="$PROJECT_DIR$/package/macosx/CSCAClient.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CSCAClient/src/com/raosoftware/clientserverchatapp/cscaclient/ChatClient.java" afterPath="$PROJECT_DIR$/CSCAClient/src/com/raosoftware/clientserverchatapp/cscaclient/ChatClient.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CSCAServer/src/com/raosoftware/clientserverchatapp/cscaserver/ChatServer.java" afterPath="$PROJECT_DIR$/CSCAServer/src/com/raosoftware/clientserverchatapp/cscaserver/ChatServer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CSCAServer/src/com/raosoftware/clientserverchatapp/cscaserver/ClientServerThread.java" afterPath="$PROJECT_DIR$/CSCAServer/src/com/raosoftware/clientserverchatapp/cscaserver/ClientServerThread.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/CSCAClient/CSCAClient.jnlp" afterPath="$PROJECT_DIR$/out/artifacts/CSCAClient/CSCAClient.jnlp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package/macosx/CSCAClient.jnlp" afterPath="$PROJECT_DIR$/package/macosx/CSCAClient.jnlp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,7 +23,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -90,8 +77,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -155,6 +140,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="package" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ClientServerChatApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ClientServerChatApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="package" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="macosx" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bundles" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -326,7 +333,9 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -655,7 +664,14 @@
       <option name="project" value="LOCAL" />
       <updated>1483393669356</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Version 1.0.2">
+      <created>1483395294595</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1483395294595</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -674,10 +690,10 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32918397" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32918397" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32918397" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -723,19 +739,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package/macosx/Info.plist">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/package/macosx/Info.plist" />
     <entry file="file://$PROJECT_DIR$/package/macosx/CSCAClient.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -751,7 +759,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#1002#1003#0" expanded="true" />
+            <element signature="e#1027#1028#0" expanded="true" />
+            <element signature="e#1060#1061#0" expanded="true" />
+            <element signature="e#1092#1093#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -866,19 +879,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package/macosx/CSCAClient-dmg-setup.scpt" />
-    <entry file="file://$PROJECT_DIR$/package/macosx/Info.plist">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/package/macosx/Info.plist" />
     <entry file="file://$PROJECT_DIR$/package/macosx/CSCAClient.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="81" lean-forward="false" selection-start-line="3" selection-start-column="81" selection-end-line="3" selection-end-column="81" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -886,14 +891,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="30" column="50" lean-forward="false" selection-start-line="30" selection-start-column="50" selection-end-line="30" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CSCAServer/src/com/raosoftware/clientserverchatapp/cscaserver/ChatServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="14" column="32" lean-forward="false" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
           <folding />
         </state>
       </provider>
@@ -915,6 +912,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSCAServer/src/com/raosoftware/clientserverchatapp/cscaserver/ChatServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="87" column="38" lean-forward="false" selection-start-line="87" selection-start-column="38" selection-end-line="87" selection-end-column="38" />
           <folding />
         </state>
       </provider>

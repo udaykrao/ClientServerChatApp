@@ -85,7 +85,7 @@ public class ChatServer implements Runnable
             clients[findClient(ID)].setName(player);
             int pos = findClient(ID);
             String ipaddress = clients[findClient(ID)].getIpaddress();
-            System.out.println("Removing client thread " + pos + ": " + player + " (" + ID + " at " + ipaddress + ")");
+            System.out.println("Adding client thread " + pos + ": " + player + " (" + ID + " at " + ipaddress + ")");
         }
         else
         {
